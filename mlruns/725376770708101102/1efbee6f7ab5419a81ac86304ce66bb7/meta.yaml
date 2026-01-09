@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/customer_chrun_prediction/mlruns/725376770708101102/1efbee6f7ab5419a81ac86304ce66bb7/artifacts
+end_time: 1767929211602
+entry_point_name: ''
+experiment_id: '725376770708101102'
+lifecycle_stage: active
+run_id: 1efbee6f7ab5419a81ac86304ce66bb7
+run_name: clean-bear-385
+run_uuid: 1efbee6f7ab5419a81ac86304ce66bb7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767929199978
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,6 @@
+artifact_location: file:///workspaces/customer_chrun_prediction/mlruns/725376770708101102
+creation_time: 1767929177540
+experiment_id: '725376770708101102'
+last_update_time: 1767929177540
+lifecycle_stage: active
+name: Telco Churn - XGBoost

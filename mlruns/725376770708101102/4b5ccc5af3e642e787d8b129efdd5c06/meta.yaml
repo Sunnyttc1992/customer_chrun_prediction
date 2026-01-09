@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/customer_chrun_prediction/mlruns/725376770708101102/4b5ccc5af3e642e787d8b129efdd5c06/artifacts
+end_time: 1767929185317
+entry_point_name: ''
+experiment_id: '725376770708101102'
+lifecycle_stage: active
+run_id: 4b5ccc5af3e642e787d8b129efdd5c06
+run_name: sassy-sheep-282
+run_uuid: 4b5ccc5af3e642e787d8b129efdd5c06
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767929177793
+status: 4
+tags: []
+user_id: codespace
