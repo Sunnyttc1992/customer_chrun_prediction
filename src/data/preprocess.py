@@ -13,7 +13,8 @@ def preprocess_data(df: pd.DataFrame, target_column: str= 'churn') -> pd.DataFra
     pd.DataFrame: The preprocessed DataFrame.
     """
     # tidy header
-    df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_').str.replace('(', '').str.replace(')', '')
+    df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_').str.replace('-', '_')
+    
     
     #drop unnecessary columns
     if 'customer_id' in df.columns:
