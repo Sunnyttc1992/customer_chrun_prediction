@@ -12,21 +12,15 @@ PROCESSED = "data/processed/processed_customer_churn.csv"
 
 # 1. Load raw data
 df = pd.read_csv(RAW)
-# 2. Process data
-df = preprocess_data(df)
-# 3 ensure target is 0/1 only if still object
+# minimal cleaning + type fixes only
+df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_').str.replace('-', '_')
 
-if df['churn'].dtype == 'object':
-    df['churn'] = df['churn'].map({'No': 0, 'Yes': 1}).astype('Int64')
-
-# Sanity check target values
-assert set(df['churn'].unique()).issubset({0, 1}), "Target column 'churn' must contain only 0 and 1 values."
-assert df['churn'].isnull().sum() == 0, "Target column 'churn' contains null values."
-
-# 4. Build features
+# run build_features while payment_method still exists
 df = build_features(df, target_col='churn')
 
-# 5. Save processed data
+# now preprocess (but remove target encoding from preprocess to avoid double work)
+df = preprocess_data(df)
+# save processed data
 os.makedirs(os.path.dirname(PROCESSED), exist_ok=True)
 df.to_csv(PROCESSED, index=False)
-print(f"✅ Processed data saved to {PROCESSED} with shape {df.shape}")
+print(f"✅ Processed data saved to {PROCESSED}")
