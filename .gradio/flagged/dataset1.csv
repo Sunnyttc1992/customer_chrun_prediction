@@ -1,0 +1,4 @@
+Tenure (months),Monthly Charges ($),Total Charges ($),Contract,Payment Method,Internet Service,Tech Support,Online Security,Customer Support Calls,Prediction,Churn Probability,Confidence,timestamp
+12,70,840,Month-to-month,Cash,DSL,Yes,Yes,1,,0,0,2026-08-12 01:30:51.517963
+12,70,840,Month-to-month,Cash,DSL,Yes,Yes,1,,0,0,2026-08-12 01:30:53.493753
+12,70,840,Month-to-month,Cash,DSL,Yes,Yes,1,Not likely to churn,0.3,0.3,2026-08-12 01:31:04.903930

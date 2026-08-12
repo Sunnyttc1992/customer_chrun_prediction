@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops_customer_chrun_prediction/mlruns/742708127400894235/afe4f512a8c34e36ad86506f4ed8e541/artifacts
+end_time: 1786496425933
+entry_point_name: ''
+experiment_id: '742708127400894235'
+lifecycle_stage: active
+run_id: afe4f512a8c34e36ad86506f4ed8e541
+run_name: xgboost
+run_uuid: afe4f512a8c34e36ad86506f4ed8e541
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1786496423208
+status: 3
+tags: []
+user_id: codespace

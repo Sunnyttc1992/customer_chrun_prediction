@@ -1,0 +1,10 @@
+{
+  "missing_columns": [],
+  "null_values": [
+    "internet_service"
+  ],
+  "invalid_categories": [
+    "internet_service: ['Fiber']"
+  ],
+  "range_violations": []
+}

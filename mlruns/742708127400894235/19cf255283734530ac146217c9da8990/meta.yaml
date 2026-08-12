@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops_customer_chrun_prediction/mlruns/742708127400894235/19cf255283734530ac146217c9da8990/artifacts
+end_time: 1786496131660
+entry_point_name: ''
+experiment_id: '742708127400894235'
+lifecycle_stage: active
+run_id: 19cf255283734530ac146217c9da8990
+run_name: churn_pipeline
+run_uuid: 19cf255283734530ac146217c9da8990
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1786496131609
+status: 4
+tags: []
+user_id: codespace

@@ -1,0 +1,6 @@
+artifact_location: file:///workspaces/mlops_customer_chrun_prediction/mlruns/742708127400894235
+creation_time: 1786496129979
+experiment_id: '742708127400894235'
+last_update_time: 1786496129979
+lifecycle_stage: active
+name: Telco Churn

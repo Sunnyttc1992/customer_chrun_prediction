@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops_customer_chrun_prediction/mlruns/742708127400894235/d78eac1723644ef59143a4cfe73572fb/artifacts
+end_time: 1786496410053
+entry_point_name: ''
+experiment_id: '742708127400894235'
+lifecycle_stage: active
+run_id: d78eac1723644ef59143a4cfe73572fb
+run_name: logistic_regression
+run_uuid: d78eac1723644ef59143a4cfe73572fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1786496404582
+status: 3
+tags: []
+user_id: codespace
